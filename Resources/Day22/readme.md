@@ -21,6 +21,11 @@ kubectl get pods --kubeconfig config
 ```
 
 Normally, kubectl uses your local `$HOME/.kube/config` file for authentication so you dont have to pass the --kubeconfig parameter in every command. You can use below command
+
+`$HOME/.kube/config`
+/etc/kubernetes/manifests
+
+
 ```
 kubectl get pods
 ```
