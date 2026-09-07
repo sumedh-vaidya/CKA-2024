@@ -28,6 +28,8 @@ Normally, kubectl uses your local `$HOME/.kube/config` file for authentication s
 
 '/etc/kubernetes/manifests'
 
+'/etc/kubernetes/pki'
+
 
 ```
 kubectl get pods
